@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans&family=Roboto+Slab:wght@400;500&family=Ubuntu:wght@500&display=swap');
+
+
+  .navbar{
+    background-color: ee7e7;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+  }
+
+  .navbar a{
+   color:rgba(46, 46, 46,.75);
+   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: 500;
+  }
+
+  .no-line{
+    text-decoration: none;
+    color: #337ab7;
+  }
+
+  h2 a{
+    color:#337ab7;
+    font-family: "Roboto Slab"!important;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    padding: 15px;
+  }
